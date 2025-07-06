@@ -1,5 +1,5 @@
 ### 1. Filtering by string pattern
-> [!TASK]
+> [! TASK]
 > Find all family members with the lastname "Quincey" and output the field member_name.
 ```sql
 SELECT member_name 
