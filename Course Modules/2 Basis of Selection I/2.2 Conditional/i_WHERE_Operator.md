@@ -7,6 +7,7 @@ FROM Payments
 WHERE unit_price > 2000;
 ```
 
+
 ### 2. Simple filtering on strings
 > [!NOTE]
 > SELECT family members names (column member_name) from FamilyMembers table, whose status (column status) equals "father"..
@@ -15,6 +16,7 @@ SELECT member_name
 FROM FamilyMembers
 WHERE STATUS = 'father';
 ```
+
 
 ### 3. Logical OR
 > [!NOTE]
@@ -25,6 +27,7 @@ SELECT member_name,
 FROM FamilyMembers
 WHERE STATUS = 'father' or status = 'mother';
 ```
+
 
 ### 4. Logical AND
 > [!NOTE]

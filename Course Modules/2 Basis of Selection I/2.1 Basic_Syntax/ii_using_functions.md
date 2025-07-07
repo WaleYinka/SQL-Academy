@@ -4,6 +4,7 @@
 SELECT LOWER('Hello world') AS lower_string;
 ```
 
+
 ### 2. Print year of date
 > [!NOTE]
 > Print the full name of the family member and his year of birth using the YEAR function. Use the alias year_of_birth to display the year of birth.
@@ -11,6 +12,7 @@ SELECT LOWER('Hello world') AS lower_string;
 SELECT member_name, YEAR(birthday) AS year_of_birth
 FROM FamilyMembers;
 ```
+
 
 ### 3. Last name length calculation
 > [!NOTE]

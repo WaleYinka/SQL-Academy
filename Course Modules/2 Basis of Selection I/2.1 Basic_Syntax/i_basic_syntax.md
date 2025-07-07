@@ -5,12 +5,14 @@
 SELECT "Hello world";
 ```
 
+
 ### 2. SELECTing all columns
 > [!NOTE]
 > Select all columns from Payments table.
 ```sql
 SELECT * FROM Payments;
 ```
+
 
 ### 3. SELECTing by multiple columns
 > [!NOTE]
@@ -21,6 +23,7 @@ SELECT member_id,
 	status
 FROM FamilyMembers
 ```
+
 
 ### 4. Print with alises
 > [!NOTE]
