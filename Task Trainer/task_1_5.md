@@ -43,8 +43,7 @@ WHERE name LIKE "%man";
 ### Task 5.
 > [!NOTE]
 > Print the number of trips completed on TU-134.
-Fields in the resulting table:count
-Use the "as count" construct for the aggregate function of counting the number of trips. This is necessary for validation.
+Fields in the resulting table:count. Use the "as count" construct for the aggregate function of counting the number of trips. This is necessary for validation.
 ```sql
 SELECT COUNT(*) AS count
 FROM Trip
